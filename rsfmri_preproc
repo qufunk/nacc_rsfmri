@@ -276,7 +276,7 @@ run_func_reg_and_normalize () {
 
     fixed=$d/anat_brain.nii.gz
     moving=${fpath}_mean_brain.nii.gz
-    output=${fpath}_mean_brain_2anat_
+    output=${fpath}_mean_brain_atl_
 
     # coregister func -> anat (using ANTs)
     echo " * coregistration "
